@@ -14,5 +14,8 @@
   --info: #7ccce4;
   --success: #76e2ac;
   --margin-width: 1rem;
+  --shadow-color: rgba(2, 1, 1, 0.07);
+  --stacked-list-color: #d09bc2;
+  --margin-width: 1rem;
   --toast-bg-color: #ae759f;
 }
