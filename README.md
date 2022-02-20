@@ -13,7 +13,7 @@ An ecommerce store UI built with Html & Css only.
 # Demo 
 This Application is deployed on netlify.
 
-https://plusui.netlify.app/
+https://azon-ecommerce.netlify.app/
 
 # Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
