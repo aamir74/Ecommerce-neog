@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../css/form.css" />
+    <link
+      rel="stylesheet"
+      href="./font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>PlusUI</title>
+  </head>
+  <body>
+    <nav class="p-nav">
+       <a href="../index.html">
+        <div class="logo">
+          <i class="fa fa-amazon" aria-hidden="true"></i>
+          <h2>Azon</h2>
+        </div>
+      </a>
+      <div class="nav-search">
+          <input id="inputbox_1" class="textbox" type="email" placeholder="Search" />
+      </div>
+      <div class="nav-icons">
+          <a href="cart.html">
+              <span class="badge-icon">
+                  <i class="fa fa-shopping-cart fa-lg" aria-hidden="true"></i>
+                  <span class="badge">2</span>
+              </span>
+          </a>
+          <a href="wishlist.html">
+              <span class="badge-icon">
+                <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
+                <span class="badge">2</span>
+              </span>
+            </a>
+          <a href="login.html"><button class="btn-text btn-primary btn-bg-color">Login</button></a>
+      </div>
+  </nav>
+    <div class="form-container">
+      <div class="auth-card">
+        <form>
+          <p class="h2 text-gray">Login</p>
+          <hr />
+          <br />
+          <div class="text-left">
+            <label for="inputbox_1" class="text-label text-gray text-md">Email</label>
+            <div>
+              <input
+                id="inputbox_1"
+                class="textbox"
+                type="email"
+                placeholder="Eg.abc@gmail.com"
+              />
+            </div>
+          </div>
+          <div class="text-left">
+            <label for="inputbox_1" class="text-label text-gray text-md">Password</label>
+            <div>
+              <input
+                id="inputbox_1"
+                class="textbox"
+                type="password"
+                placeholder="Eg.123Abc"
+              />
+            </div>
+          </div>
+          <div>
+            <button class="btn-text btn-primary btn-bg-color" type="submit">
+              Login
+            </button>
+          </div><br/>
+          <p>Not Registered? <a href='signup.html'>Sign up</a></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
